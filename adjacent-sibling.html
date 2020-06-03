@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendent selector</title>
+    <style>
+        h1+h2 {color: teal;}
+        div+h2 {color: turquoise;}
+
+    </style>
+</head>
+<body>
+    <h1>PIAIC Offers Following Courses</h1>
+    <div>
+        Artificial Intelligence
+    </div>
+    <div>
+        Cloud Native Computing
+    </div>
+    <div>
+        Internet of Things
+    </div>
+    <div>
+        BlockChain
+    </div>
+    <h2>
+        List of Selected Students
+    </h2> 
+      <hr />
+    <table border="2" cellpadding="10" cellspacing="8" width="800">
+        <tr>
+            <th>Serial Number</th>
+            <th>Name</th>
+            <th>Roll Number</th>
+            <th>Enrolled Courses</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Ali Raza</td>
+            <td>PIAIC001</td>
+            <td>
+                <ol>
+                    <li>Artificial Intelligence</li>
+                    <li>Cloud Computing</li>
+                    <li>Internet of Things</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Waqas Hussain</td>
+            <td>PIAIC3366</td>
+            <td>
+                <ul>
+                    <li>Cloud Native Computing</li>
+                    <li>Artificial Intelligence</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Tamoor Akhtar</td>
+            <td>PIAIC3367</td>
+            <td><p>Internet of Things</p></td>
+        </tr>
+        <tr>
+            <td>004</td>
+            <td>Abubakkar MAlik</td>
+            <td>PIAIC3333</td>
+            <td>Cloud Native Computing</td>
+        </tr>
+        <tr>
+            <td>
+                004
+            </td>
+            <td>Talha Asghar</td>
+            <td>PIAIC5555</td>
+            <td>
+                <ol>
+                    <li>
+                        Internet of things
+                    </li>
+                    <li>Cloud Computing</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
